@@ -1,0 +1,63 @@
+{
+  "name": "rehype-auto-target-blank",
+  "version": "1.0.0",
+  "description": "Rehype plugin to automatically add target='_blank' to external links with optional icon and accessibility support.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "README.ko.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "play": "node playground.js",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "prepublishOnly": "npm run build && npm run test:run"
+  },
+  "keywords": [
+    "rehype",
+    "rehype-plugin",
+    "unified",
+    "ast",
+    "html",
+    "target-blank",
+    "external-links",
+    "astro",
+    "markdown"
+  ],
+  "author": "NextNove <contact@nextnove.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nextnove/rehype-auto-target-blank.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nextnove/rehype-auto-target-blank/issues"
+  },
+  "homepage": "https://github.com/nextnove/rehype-auto-target-blank#readme",
+  "dependencies": {
+    "unist-util-visit": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/hast": "^3.0.0",
+    "rehype-stringify": "^10.0.1",
+    "remark-parse": "^11.0.0",
+    "remark-rehype": "^11.1.2",
+    "typescript": "^5.0.0",
+    "unified": "^11.0.5",
+    "vitest": "^4.0.18"
+  },
+  "peerDependencies": {
+    "unified": "^10.0.0 || ^11.0.0"
+  }
+}
