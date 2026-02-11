@@ -1,5 +1,9 @@
 # rehype-auto-target-blank
 
+[![npm version](https://img.shields.io/npm/v/rehype-auto-target-blank.svg?style=flat-square)](https://www.npmjs.com/package/rehype-auto-target-blank)
+[![npm downloads](https://img.shields.io/npm/dm/rehype-auto-target-blank.svg?style=flat-square)](https://www.npmjs.com/package/rehype-auto-target-blank)
+[![license](https://img.shields.io/github/license/nextnove/rehype-auto-target-blank.svg?style=flat-square)](https://github.com/nextnove/rehype-auto-target-blank/blob/main/LICENSE)
+
 A [rehype](https://github.com/rehypejs/rehype) plugin to automatically detect external links and internal absolute paths, opening them in a new tab (`target="_blank"`).
 
 [한국어 설명은 여기를 클릭하세요](./README.ko.md)

@@ -1,5 +1,9 @@
 # rehype-auto-target-blank
 
+[![npm version](https://img.shields.io/npm/v/rehype-auto-target-blank.svg?style=flat-square)](https://www.npmjs.com/package/rehype-auto-target-blank)
+[![npm downloads](https://img.shields.io/npm/dm/rehype-auto-target-blank.svg?style=flat-square)](https://www.npmjs.com/package/rehype-auto-target-blank)
+[![license](https://img.shields.io/github/license/nextnove/rehype-auto-target-blank.svg?style=flat-square)](https://github.com/nextnove/rehype-auto-target-blank/blob/main/LICENSE)
+
 외부 링크와 내부 절대 경로 링크를 자동으로 감지하여 새 탭(`target="_blank"`)으로 열어주는 [rehype](https://github.com/rehypejs/rehype) 플러그인입니다.
 
 ## ✨ 주요 특징
